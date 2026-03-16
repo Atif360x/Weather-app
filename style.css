@@ -137,7 +137,7 @@ border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 .humidity, .windspeed {
-  font-size: 2px;
+  font-size: 10px;
   margin: 0px;
   padding-top: 10px;
 }
@@ -145,7 +145,7 @@ border: 1px solid rgba(255, 255, 255, 0.20);
 .windspeedvalue, .humidityvalue{
   margin: 0px;
   padding: 8px 0px;
-  font-size: 6px;
+  font-size: 15px;
   font-family: "Bungee", sans-serif;
   font-style: bold;
 }
