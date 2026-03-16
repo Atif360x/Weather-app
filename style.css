@@ -137,7 +137,7 @@ border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 .humidity, .windspeed {
-  font-size: 15px;
+  font-size: 8px;
   margin: 0px;
   padding-top: 10px;
 }
