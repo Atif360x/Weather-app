@@ -53,15 +53,15 @@ function changeBackground(condition, isNight) {
   let bg = "";
 
   if (condition === "Clear") {
-    bg = isNight ? "url(img/night.jpg)" : "url(img/clearsky.jpg)";
+    bg = isNight ? "url(night.jpg)" : "url(clearsky.jpg)";
   } else if (condition === "Rain" || condition === "Drizzle" || condition === "Thunderstorm") {
-    bg = isNight ? "url(img/rainnight.jpg)" : "url(img/rain.jpg)";
+    bg = isNight ? "url(rainnight.jpg)" : "url(rain.jpg)";
   } else if (condition === "Snow") {
-    bg = isNight ? "url(img/snownight.jpg)" : "url(img/snow.jpg)";
+    bg = isNight ? "url(snownight.jpg)" : "url(snow.jpg)";
   } else if (condition === "Clouds") {
-    bg = isNight ? "url(img/cloudynight.jpg)" : "url(img/cloudy.jpg)";
+    bg = isNight ? "url(cloudynight.jpg)" : "url(cloudy.jpg)";
   } else {
-    bg = isNight ? "url(img/night.jpg)" : "url(img/clearsky.jpg)";
+    bg = isNight ? "url(night.jpg)" : "url(clearsky.jpg)";
   }
 
   document.body.style.backgroundImage = bg;
